@@ -31,9 +31,9 @@ Para executar o script, siga os seguintes passos:
 python3 getcnpj.py
 ```
 
-5. O script irá consultar a API da ReceitaWS para cada CNPJ no arquivo `cnpjs.txt` e salvar os dados em um arquivo Excel chamado `dados_empresas.xlsx`.
-6. O arquivo `dados_empresas.xlsx` será criado na pasta do repositório.
+5. O script irá consultar a API da ReceitaWS para cada CNPJ no arquivo `cnpjs.txt` e salvar os dados em um arquivo Excel chamado `dados_empresas_DATA.xlsx`.
+6. O arquivo `dados_empresas_DATA.xlsx` será criado na pasta do repositório.
 
-Se você quiser alterar o nome do arquivo de entrada ou saída, basta editar as variáveis `arquivo_cnpjs` e `arquivo_saida` no arquivo `consulta_cnpj.py`.
+Se você quiser alterar o nome do arquivo de entrada ou saída, basta editar as variáveis `arquivo_cnpjs` e `arquivo_saida` no arquivo `getcnpj.py`.
 
 Lembre-se de que a API da ReceitaWS tem um limite de consultas por dia. Se você atingir esse limite, precisará esperar até o dia seguinte para continuar consultando.
