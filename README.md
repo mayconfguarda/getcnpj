@@ -7,6 +7,13 @@ Este script Python consulta a API da ReceitaWS para obter informações sobre em
 - Python 3.6 ou superior
 - Bibliotecas Python: `os`, `requests`, `pandas`, `datetime`, `json` , `openpyxl`
 
+Iniciei um ambiente virtual do Python
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
 Você pode instalar as bibliotecas necessárias com o seguinte comando:
 
 ```bash
