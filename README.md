@@ -1,4 +1,4 @@
-# README para o script de consulta de CNPJ
+# Script de consulta de CNPJ
 
 Este script Python consulta a API da ReceitaWS para obter informações sobre empresas a partir de seus CNPJs e salva os dados em um arquivo Excel.
 
