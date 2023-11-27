@@ -28,7 +28,7 @@ Para executar o script, siga os seguintes passos:
 4. Execute o seguinte comando no terminal:
 
 ```bash
-python consulta_cnpj.py
+python3 getcnpj.py
 ```
 
 5. O script irá consultar a API da ReceitaWS para cada CNPJ no arquivo `cnpjs.txt` e salvar os dados em um arquivo Excel chamado `dados_empresas.xlsx`.
